@@ -32,7 +32,6 @@ class Scraper
 
     student_hash
   end
-<<<<<<< HEAD
 
   #adds links to the student's hash if their exists a link for each site
   def self.social_link_assignment(social_links, student_hash)
@@ -49,6 +48,4 @@ class Scraper
       end
     end
   end
-=======
->>>>>>> 928f881c4aaecfa24cc057f0803a2935ced9e5d6
 end

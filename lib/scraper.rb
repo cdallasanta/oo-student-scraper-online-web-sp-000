@@ -4,6 +4,7 @@ require 'pry'
 class Scraper
 
   def self.scrape_index_page(index_url)
+<<<<<<< HEAD
     #pulls the html into the doc variable
     doc = Nokogiri::HTML(open(index_url))
     all_students = []
@@ -18,6 +19,9 @@ class Scraper
       all_students << student
     end
     all_students
+=======
+
+>>>>>>> 928f881c4aaecfa24cc057f0803a2935ced9e5d6
   end
 
   #scrapes a user's profile for their social links, and bio info
@@ -32,6 +36,7 @@ class Scraper
 
     student_hash
   end
+<<<<<<< HEAD
 
   #adds links to the student's hash if their exists a link for each site
   def self.social_link_assignment(social_links, student_hash)
@@ -48,4 +53,6 @@ class Scraper
       end
     end
   end
+=======
+>>>>>>> 928f881c4aaecfa24cc057f0803a2935ced9e5d6
 end
